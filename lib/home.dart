@@ -42,8 +42,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   style: Theme.of(context).textTheme.displayLarge,
                 ),
               ),
-              decoration: BoxDecoration(
-                  color: Colors.blue, borderRadius: BorderRadius.circular(25)),
+              decoration: BoxDecoration(boxShadow: [
+                BoxShadow(
+                    color: const Color.fromARGB(255, 255, 255, 255)
+                        .withOpacity(0.5),
+                    spreadRadius: 2,
+                    blurRadius: 5,
+                    offset: Offset(0, 3))
+              ], color: Colors.blue, borderRadius: BorderRadius.circular(25)),
             ),
             SizedBox(
               height: 50,
@@ -61,7 +67,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     },
                     child: Text(
                       'Login here',
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: const Color.fromARGB(255, 0, 0, 0)),
                     ))
               ],
             ),
