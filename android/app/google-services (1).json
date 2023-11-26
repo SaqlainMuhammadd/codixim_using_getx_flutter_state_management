@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778891310633",
+    "project_id": "codixim-578eb",
+    "storage_bucket": "codixim-578eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778891310633:android:0d64e9f741c2b1dcc7ce38",
+        "android_client_info": {
+          "package_name": "com.example.codixim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDa4v1zqdGRuvkuMkgLlD16ZDPcAJz8WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
