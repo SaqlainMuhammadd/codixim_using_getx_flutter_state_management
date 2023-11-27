@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         ),
         nextScreen: HomeScreen(),
         splashTransition: SplashTransition.fadeTransition,
-        duration: 1500,
+        duration: 800,
       ),
     );
   }
